@@ -54,5 +54,4 @@ export const sendEmail = async ({
         console.log("email sending error", error.message);
         throw new AppError(401, "Email error")
     }
-
 }
